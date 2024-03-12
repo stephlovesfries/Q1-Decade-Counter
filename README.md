@@ -1,6 +1,6 @@
 # Q1-Decade-Counter
 ## Module
-To make a Verilog Decade Counter module, I mainly utilized the if else function. When rst = 1, the counter resets to 0. When rst = 0, the counter counts up until it reaches "10," after which it repeats. 
+To make a Verilog Decade Counter module, I mainly utilized the if else function. When rst = 1, the counter resets to 0. When rst = 0, the counter counts the clock (posedge) until it reaches "9," after which it repeats. 
 ![photo1710205894](https://github.com/stephlovesfries/Q1-Decade-Counter/assets/115708694/89a8fe68-8f10-4e5f-bd5a-1a4a4754628b)
 ![photo1710205894 (1)](https://github.com/stephlovesfries/Q1-Decade-Counter/assets/115708694/abfe544c-8327-4df0-a710-7066daa29caf)
 ## Testbench & Simulation
